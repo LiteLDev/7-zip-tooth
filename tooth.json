@@ -1,0 +1,31 @@
+{
+    "format_version": 3,
+    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+    "tooth": "git.levimc.org/LiteLDev/7-zip-tooth",
+    "version": "26.0.0",
+    "info": {
+        "name": "7-zip",
+        "description": "7-Zip executable",
+        "tags": [
+            "executable"
+        ],
+        "avatar_url": ""
+    },
+    "variants": [
+        {
+            "platform": "win-x64",
+            "assets": [
+                {
+                    "type": "self",
+                    "placements": [
+                        {
+                            "type": "file",
+                            "src": "7za.exe",
+                            "dest": "7za.exe"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
